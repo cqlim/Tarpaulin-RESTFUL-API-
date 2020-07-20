@@ -1,0 +1,38 @@
+{
+	"name": "final-project-amazing",
+	"version": "1.0.0",
+	"description": "Final project for cs493",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js",
+		"dev": "nodemon server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/osu-cs493-sp20/final-project-amazing.git"
+	},
+	"author": "Flazzing",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/osu-cs493-sp20/final-project-amazing/issues"
+	},
+	"homepage": "https://github.com/osu-cs493-sp20/final-project-amazing#readme",
+	"devDependencies": {
+		"nodemon": "^2.0.3"
+	},
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"crypto": "^1.0.1",
+		"csv-parser": "^2.3.3",
+		"csv-writer": "^1.6.0",
+		"express": "^4.17.1",
+		"fast-csv": "^4.3.0",
+		"jsonwebtoken": "^8.5.1",
+		"mongodb": "^3.5.8",
+		"morgan": "^1.10.0",
+		"multer": "^1.4.2",
+		"mysql2": "^2.1.0",
+		"redis": "^3.0.2"
+	}
+}
